@@ -35,6 +35,29 @@
             <p class="my-2">La tua parola è palindroma? <span id="palindrome-answer"></span></p>
         </div>
     </section>
+
+    <section class="bg-lightcoral fs-4">
+        <div class="container py-4">
+            <h2 class="text-danger">Pari e Dispari</h2>
+            <!-- user even/odd -->
+            <div class="my-2">
+                <label for="choice">Scegli tra PARI o DISPARI</label>
+                <select name="choice" id="choice">
+                    <option value="0">--</option>
+                    <option value="1">Pari</option>
+                    <option value="2">Dispari</option>
+                </select>
+            </div>
+            <!-- user number -->
+            <div class="my-2">
+                <label for="number">Scegli un numero da 1 a 5</label>
+                <input type="number" min="1" max="5">
+            </div>
+            <p>Il numero scelto dal Signore Oscuro è: <span id="cpu-number" class="text-danger"></span></p>
+            <p>Il risultato della somma dei vostri numeri è: <span id="sum" class="text-danger"></span></p>
+            <h3 id="result" class="text-danger my-2"></h3>
+        </div>
+    </section>
 </body>
 
 </html>
