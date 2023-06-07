@@ -34,6 +34,7 @@ Dichiariamo chi ha vinto.
 1. recuperare gli elementi dal DOM
 2. individuare le scelte dell'utente
 3. creare una funzione che genera numeri random da 1 a 5
-4. sommare il numero scelto dall'utente e quello generato dalla funzione
-5. creare una funzione che ci dice se un numero è pari
+4. mettere in asccolto il bottone
+5. sommare il numero scelto dall'utente e quello generato dalla funzione
+6. creare una funzione che ci dice se un numero è pari
    - verificare se la scelta dell'utente è pari - **Se** la scelta è pari e la somma è pari, l'utente ha vinto - **altrimenti** ha perso
